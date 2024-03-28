@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tables and Forms</title>
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css">
+</head>
+<body class="container">
+<br>
+
+
+
+<!-- Boarder to surround the forms -->
+        <div class="card">
+            <div class="card-body">
+                <h1><strong>List of Legends</strong></h1>
+                <br>
+
+<!-- Name form with id "new-name" -->
+                <div class="row">
+                    <div class="col-sm">
+                        <div class="form-group">
+                            <div class="w-50">
+                                <label for="new-name">Name</label>
+                                <input type="Name" class="form-control" id="new-name" placeholder="Name">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <br>
+
+
+
+<!-- Age form with id "new-age" -->
+                <div class="row">
+                    <div class="col-sm">
+                        <div class="form-group">
+                            <label for="new-age">Age</label>
+                            <input type="text" class="form-control" id="new-age" placeholder="Age">
+                        </div>
+                    </div>
+
+                        
+                    
+<!-- Feet form with id "new-feet" -->
+                    <div class="col-sm">
+                        <div class="form-group">
+                            <label for="new-feet">Feet</label>
+                            <input type="text" class="form-control" id="new-feet" placeholder="Feet">
+                        </div>
+                    </div>
+                        
+                    
+<!-- Inches form with id "new-inches" -->
+                    <div class="col-sm">
+                        <div class="form-group">
+                            <label for="new-inches">Inches</label>
+                            <input type="text" class="form-control" id="new-inches" placeholder="Inches">
+                        </div>
+                    </div>
+
+                        
+<!-- Weight form with id "new-weight" -->
+                    <div class="col-sm">
+                        <div class="form-group">
+                            <label for="new-weight">Lbs</label>
+                            <input type="text" class="form-control" id="new-weight" placeholder="Weight">
+                        </div>
+                    </div>
+                    <br>
+                </div>
+                <br>
+
+
+<!-- Rival form with id "new-rival" -->
+                <div class="row">
+                    <div class="col-sm">
+                        <div class="form-group">
+                            <label for="new-rival">Rival</label>
+                            <input type="Rival" class="form-control" id="new-rival" placeholder="Rival">
+                        </div>
+                    </div>
+                        
+
+
+<!-- Finisher form with id "new-finisher" -->
+                    <div class="col-sm">
+                        <div class="form-group">
+                            <label for="new-finisher">Finisher</label>
+                            <input type="text" class="form-control" id="new-finisher" placeholder="Finisher">
+                        </div>
+                    </div>
+                </div>
+
+
+
+<!-- Submit Button with id "add" -->
+                <div>
+                    <button id="add" class="btn btn-primary form control">Submit</button>
+                </div>
+                <br>
+            </div>
+        </div>
+    </div>
+
+
+
+<!-- Table with id "list" -->
+    <table id="list" class="table table-dark table-striped">
+
+<!-- Table headings for each form catagory -->
+        <tr>
+            <th scope="col">Name</th>
+            <th scope="col">Age</th>
+            <th scope="col">Feet</th>
+            <th scope="col">Inches</th>
+            <th scope="col">Weight</th>
+            <th scope="col">Rival</th>
+            <th scope="col">Finisher</th>
+        </tr>
+    </table>
+
+    <script src="CA-Week10.js"></script>
+    <script src="node_modules/jquery/dist/jquery.js"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
+</body>
+</html>
